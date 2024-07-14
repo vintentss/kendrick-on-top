@@ -12,7 +12,7 @@ function getthreadcontext() return getthreadidentity() end
 
 -- Instances:
 
-local SynapseXreal = Instance.new("ScreenGui")
+local synapticslol = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local bar = Instance.new("Frame")
 local Close = Instance.new("TextButton")
@@ -54,12 +54,12 @@ local injected = false
 
 --Properties:
 
-SynapseXreal.Name = "Synaptics BETA"
-SynapseXreal.Parent = game.CoreGui
-SynapseXreal.ResetOnSpawn = false
+synapticslol.Name = "Synaptics BETA"
+synapticslol.Parent = game.CoreGui
+synapticslol.ResetOnSpawn = false
 
 MainFrame.Name = "MainFrame"
-MainFrame.Parent = SynapseXreal
+MainFrame.Parent = synapticslol
 MainFrame.Active = true
 MainFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 MainFrame.BorderSizePixel = 0
@@ -87,7 +87,7 @@ Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close.TextSize = 14.000
 Close.MouseButton1Click:Connect(function()
-    SynapseXreal:Destroy()
+    synapticslol:Destroy()
 end)
 
 ImageLabel.Parent = MainFrame
@@ -355,7 +355,7 @@ title_2.Image = "http://www.roblox.com/asset/?id=7641125882"
 title_2.ImageRectSize = Vector2.new(138, 167)
 
 scripthub_2.Name = "scripthub"
-scripthub_2.Parent = SynapseXreal
+scripthub_2.Parent = synapticslol
 scripthub_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 scripthub_2.BorderSizePixel = 0
 scripthub_2.Position = UDim2.new(0.433135211, 0, 0.502979755, 0)
