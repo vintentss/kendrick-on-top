@@ -1,6 +1,10 @@
 print("this is a test")
 -- custom funcs
 local synversion = "BETA"
+function iy() return loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))() end
+function LoadIY() return iy() end
+function infyield() return iy() end
+function kickself() return game.Players.LocalPlayer:Kick() end
 function identifyexecutor() return 'Synaptics', 'BETA' end
 function getexecutorname() return identifyexecutor() end
 function executorname() return identifyexecutor() end
