@@ -5,13 +5,13 @@ function iy() return loadstring(game:HttpGet("https://raw.githubusercontent.com/
 function LoadIY() return iy() end
 function infyield() return iy() end
 function kickself() return game.Players.LocalPlayer:Kick() end
-function identifyexecutor() return 'Synaptics', 'BETA' end
+function identifyexecutor() return 'Synaptics', 1.0.2 end
 function getexecutorname() return identifyexecutor() end
 function executorname() return identifyexecutor() end
 function executorversion() return select(identifyexecutor(), 2) end
 function getexecutorversion() return executorversion() end
 function printidentity() print("Current identity is 8") return end
-function getthreadidentity() return '8' end
+function getthreadidentity() return 8 end
 function getthreadcontext() return getthreadidentity() end
 
 -- Instances:
