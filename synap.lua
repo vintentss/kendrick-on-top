@@ -11,7 +11,7 @@ function executorname() return identifyexecutor() end
 function executorversion() return select(identifyexecutor(), 2) end
 function getexecutorversion() return executorversion() end
 function printidentity() print("Current identity is 8") return end
-function getthreadidentity() return 8 end
+function getthreadidentity() return '8' end
 function getthreadcontext() return getthreadidentity() end
 
 -- Instances:
